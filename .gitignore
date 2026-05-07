@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env/
+.env
+.pytest_cache/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local secret and state
+*.log
+*.sqlite3
+.DS_Store
+
+# Generated media output
+/data/audio/
+/data/clips/
+/data/final/

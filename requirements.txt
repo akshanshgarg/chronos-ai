@@ -4,3 +4,4 @@ python-dotenv
 edge-tts
 pandas 
 genai
+moviepy

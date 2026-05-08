@@ -2,3 +2,5 @@ moviepy
 requests
 python-dotenv
 edge-tts
+pandas 
+genai

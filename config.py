@@ -14,7 +14,7 @@ class Config:
     def __init__(self):
         self.api_keys = {
             "gemini": os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY"),
-            "perplexity": os.getenv("PERPLEXITY_API_KEY", "YOUR_PERPLEXITY_API_KEY"),
+            "api_ninjas": os.getenv("api_ninjas", "YOUR_API_NINJAS_API_KEY"),
             "quillbot": os.getenv("QUILLBOT_API_KEY", "YOUR_QUILLBOT_API_KEY"),
             "edge_tts": os.getenv("EDGE_TTS_API_KEY", "YOUR_EDGE_TTS_API_KEY"),
             "kling": os.getenv("KLING_API_KEY", "YOUR_KLING_API_KEY"),

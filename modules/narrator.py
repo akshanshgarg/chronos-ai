@@ -15,7 +15,7 @@ class Narrator:
     def generate_voice(self, script):
         """Read script JSON from data folder and generate narration audio."""
         
-        output_path = self.config.paths["audio"] / "YanNeural.mp3"
+        output_path = self.config.paths["audio"] / "main_audio.mp3"
         output_path.parent.mkdir(parents=True, exist_ok=True)
         
         # Combine hook, body, and twist into narration text

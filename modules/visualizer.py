@@ -13,7 +13,7 @@ class Visualizer:
         self.config = config
         self.pexels_url = "https://api.pexels.com/videos/search"
 
-    def get_stock_background(self, query, clip_name="temp_bg3.mp4"):
+    def get_stock_background(self, query, clip_name="bg.mp4"):
         """Fetches a free vertical video from Pexels based on the topic."""
         headers = {"Authorization": self.config.api_keys["PEXELS_API_KEY"]}
         params = {

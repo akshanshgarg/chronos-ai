@@ -65,7 +65,7 @@ class Researcher:
         2. A 'hook' that stops the scroll.
         3. A 'script body' with 3 disturbing facts.
         4. A 'twist' or question at the end.
-        5. A 'visual_prompt' for an AI video generator (cinematic, moody).
+        5. A 'visual_prompt' for an AI video generator. Keep it short and concrete, use direct keywords only.
         """
 
         response = self.client.models.generate_content(
